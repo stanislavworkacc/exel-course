@@ -1,3 +1,3 @@
 export function shouldResize(event) {
-    return
+  return event.target.dataset.resize
 }
