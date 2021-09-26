@@ -56,6 +56,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       'patterns': [
+        // eslint-disable-next-line max-len
         {'from': path.resolve(__dirname, 'src/favicon.ico'), 'to': path.resolve(__dirname, 'dist')},
       ],
     }),
