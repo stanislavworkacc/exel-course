@@ -40,9 +40,9 @@ export function createToolbar(s) {
     },
     {
       value: {
-        textDecoration: s['textDecoration'] === 'underline'
-          ? 'none'
-          : 'underline'
+        textDecoration: s['textDecoration'] === 'underline' ?
+          'none' :
+          'underline'
       },
       icon: 'format_underlined',
       active: s['textDecoration'] === 'underline'
